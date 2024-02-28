@@ -9,9 +9,34 @@
 
     <TabBar>
         <ShellContent
-            Title="Home"
+            Title="Feladat 1"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
+
+        <ShellContent
+            Title="Feladat 2"
+            ContentTemplate="{DataTemplate local:Feladat2Page}"
+            Route="Feladat2Page" />
+
+        <ShellContent
+            Title="Feladat 3"
+            ContentTemplate="{DataTemplate local:Feladat3Page}"
+            Route="Feladat3Page" />
+
+        <ShellContent
+            Title="Feladat 4"
+            ContentTemplate="{DataTemplate local:Feladat4Page}"
+            Route="Feladat4Page" />
+
+        <ShellContent
+            Title="Feladat 5"
+            ContentTemplate="{DataTemplate local:Feladat5Page}"
+            Route="Feladat5Page" />
+
+        <ShellContent
+            Title="Feladat 6"
+            ContentTemplate="{DataTemplate local:Feladat6Page}"
+            Route="Feladat6Page" />
     </TabBar>
 
 </Shell>

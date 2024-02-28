@@ -5,9 +5,13 @@
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
+            Padding="30"
             Spacing="25">
-
+            <Button 
+                Clicked="Button_Clicked"
+                HorizontalOptions="Fill"
+                Text="Navigate to Feladat2Page"
+            />
         </VerticalStackLayout>
     </ScrollView>
 
